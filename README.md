@@ -34,7 +34,7 @@
 - インストール手順
 
 
-・自分のcatkin_ws/srcに移動
+　自分のcatkin_ws/srcに移動
 
 　`$ git clone `
 
