@@ -31,7 +31,7 @@
 # 実行方法
 以下の手順で操作を行ってください
 
--インストール手順
+- インストール手順
 　
 ・自分のcatkin_ws/srcに移動
 
@@ -39,15 +39,15 @@
 
 `$ cd catkin_ws/src/img_change`
 
--端末1　`$ roscore`
+- 端末1　`$ roscore`
 
--端末2　`$ rosrun cv_canera cv_camera_node`
+- 端末2　`$ rosrun cv_canera cv_camera_node`
 
--端末3　`$ rosrun web_video_server web_video_server` 
+- 端末3　`$ rosrun web_video_server web_video_server` 
 
--端末4　`$ rosrun img_change img_change.py`
+- 端末4　`$ rosrun img_change img_change.py`
 
--確認方法
+- 確認方法
 
 同じネットワーク内にある端末でブラウザを開きhttp://ラズパイのIPアドレス:8080にアクセスすることでカメラの映像が見られる
 
@@ -60,8 +60,4 @@
 # ライセンス
 このリポジトリには以下のライセンスが付与されています
 
-
-・
-
-
-
+BSD 2-Clause License
