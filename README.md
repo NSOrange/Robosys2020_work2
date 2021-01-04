@@ -32,12 +32,13 @@
 以下の手順で操作を行ってください
 
 - インストール手順
-　
+
+
 ・自分のcatkin_ws/srcに移動
 
-`$ git clone `
+　`$ git clone `
 
-`$ cd catkin_ws/src/img_change`
+　`$ cd catkin_ws/src/img_change`
 
 - 端末1　`$ roscore`
 
