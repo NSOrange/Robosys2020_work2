@@ -26,7 +26,7 @@
  
 ・cv_cameraとweb_video_serverが使える状況にあること
 
-　導入に関してはRyuichi Ueda氏の[ロボットシステム学第10回(ROS)](https://ryuichiueda.github.io/robosys2020/lesson10_ros.html)に従って行ってほしい
+　導入に関してはRyuichi Ueda氏の[ロボットシステム学第10回(ROS)](https://ryuichiueda.github.io/robosys2020/lesson10_ros.html)に従って行ってください
 
 # 実行方法
 以下の手順で操作を行ってください
@@ -50,7 +50,7 @@
 
 - 確認方法
 
-　・同じネットワーク内にある端末でブラウザを開き`{http://ラズパイのIPアドレス:8080}` に
+　・同じネットワーク内にある端末でブラウザを開き`{ラズパイのIPアドレス:8080}` に
  
  　　アクセスすることでカメラの映像が見られる
 
