@@ -42,7 +42,7 @@
 
 - 端末1　`$ roscore`
 
-- 端末2　`$ rosrun cv_canera cv_camera_node`
+- 端末2　`$ rosrun cv_caera cv_camera_node`
 
 - 端末3　`$ rosrun web_video_server web_video_server` 
 
