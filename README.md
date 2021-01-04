@@ -1,8 +1,8 @@
 # Robosys2020_work2
- webカメラからの画像データをモノクロにするプログラム
+ ウェブカメラからの画像データをモノクロ画像にするプログラム
  
 # リポジトリの概要
-　講義内で行ったwebカメラを用いて
+　講義内で行ったウェブカメラを用いてウェブブラウザに映像を表示させるというものを改造したものです
 
 # 動作環境
 ハードウェア
@@ -27,3 +27,41 @@
 ・cv_cameraとweb_video_serverが使える状況にあること
 
 　導入に関してはRyuichi Ueda氏の[ロボットシステム学第10回(ROS)](https://ryuichiueda.github.io/robosys2020/lesson10_ros.html)に従って行ってほしい
+
+# 実行方法
+以下の手順で操作を行ってください
+
+-インストール手順
+　
+・自分のcatkin_ws/srcに移動
+
+`$ git clone `
+
+`$ cd catkin_ws/src/img_change`
+
+-端末1　`$ roscore`
+
+-端末2　`$ rosrun cv_canera cv_camera_node`
+
+-端末3　`$ rosrun web_video_server web_video_server` 
+
+-端末4　`$ rosrun img_change img_change.py`
+
+-確認方法
+
+同じネットワーク内にある端末でブラウザを開きhttp://ラズパイのIPアドレス:8080にアクセスすることでカメラの映像が見られる
+
+# 実際の動画
+
+以下のURLより動画を視聴できます
+
+
+
+# ライセンス
+このリポジトリには以下のライセンスが付与されています
+
+
+・
+
+
+
