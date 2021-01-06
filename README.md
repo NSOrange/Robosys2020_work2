@@ -72,5 +72,4 @@ BSD 2-Clause License
 # 参考文献
 
 [1] [ロボットシステム学第10回(ROS)](https://ryuichiueda.github.io/robosys2020/lesson10_ros.html)
-
 [2] [ROSで画像処理ができるようになるまで[python編]](https://qiita.com/wakaba130/items/d3a041164c316a9e7a97)
