@@ -33,8 +33,6 @@
 
 - インストール手順
 
- ROSのインストール等の事前準備が終了している前提で進めていきます
-
 　自分のcatkin_ws/srcに移動
 
 　`$ git clone https://github.com/NSOrange/Robosys2020_work2.git`
@@ -62,7 +60,7 @@
 
 以下のURLより動画を視聴できます
 
-
+https://www.youtube.com/watch?v=Qe4fRS6BnYM&feature=youtu.be
 
 # ライセンス
 このリポジトリには以下のライセンスが付与されています
